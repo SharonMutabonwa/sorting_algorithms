@@ -35,5 +35,7 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void merge_sorty(int *array, int low, int high, int *temp);
 void merge(int *array, int low, int middle, int high, int *temp);
+void heapify(int *array, size_t s, size_t root, size_t size);
+void heap_sort(int *array, size_t size);
 
 #endif
