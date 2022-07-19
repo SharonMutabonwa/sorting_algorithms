@@ -45,6 +45,6 @@ void bitonic_sort(int *array, size_t size);
 int partition(int *array, int left, int right, size_t size);
 void quick_recursion(int *array, int left, int right, size_t size);
 void quick_sort_hoare(int *array, size_t size);
-
+void sort_deck(deck_node_t **deck);
 
 #endif
