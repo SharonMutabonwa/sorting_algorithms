@@ -42,9 +42,9 @@ void radix_sort(int *array, size_t size);
 void bitonic_merge(int *array, int l, int r, int direction);
 void bitonic_recursion(int *array, int l, int r, int direction, size_t size);
 void bitonic_sort(int *array, size_t size);
-int partition(int *array, int left, int right, size_t size);
-void quick_recursion(int *array, int left, int right, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void quicksort(int *array, ssize_t lo, ssize_t hi, size_t size);
+size_t partition(int *array, ssize_t lo, ssize_t hi, size_t size);
 void sort_deck(deck_node_t **deck);
 
 #endif
